@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
-export default function SideBar({ fullMenu }) {
+
+interface ISidebar extends IProps {
+  fullMenu: any;
+}
+
+const Sidebar: React.FC<ISidebar> = ({ fullMenu }) => {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <>
@@ -28,4 +33,6 @@ export default function SideBar({ fullMenu }) {
       </div>
     </>
   );
-}
+};
+
+export default Sidebar;

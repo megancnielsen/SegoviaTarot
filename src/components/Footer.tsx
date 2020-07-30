@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../../config';
+import config from '../../config.js';
 export default function Footer() {
   return (
     <section id="footer">
@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows={4}></textarea>
             </div>
           </div>
           <ul className="actions">

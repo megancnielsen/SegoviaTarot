@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Scroll from './Scroll';
-import config from '../../config';
+import Scroll from './scroll';
+import config from '../../siteData';
 
 export default class Header extends Component {
   constructor(props) {

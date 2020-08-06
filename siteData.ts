@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   siteTitle: 'Gatsby Starter SolidState', // <title>
   manifestName: 'SolidState',
   manifestShortName: 'Landing', // max 12 characters

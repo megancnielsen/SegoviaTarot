@@ -1,15 +1,16 @@
 {
-  "name": "gatsby-starter-solidstate",
+  "name": "segovia_tarot",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Solid State by HTML5 UP",
+  "description": "A website",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Isiah Fletcher",
+    "email": "isiahfletcher7@gmail.com"
   },
+  "private": "true",
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
@@ -17,7 +18,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-source-strapi": "0.0.12",
+    "gatsby-source-filesystem": "^2.3.23",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -30,7 +31,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "start": "npm run clean && gatsby develop -p 4200",
+    "start": "npm run clean && gatsby develop -p 3000",
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",

@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactForm from './contact';
 
-export default function Footer() {
+const Footer = () => {
     return (
         <section id="footer">
             <div className="inner">
@@ -23,4 +23,6 @@ export default function Footer() {
             </div>
         </section>
     );
-}
+};
+
+export default Footer;

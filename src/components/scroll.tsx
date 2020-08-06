@@ -1,84 +1,92 @@
 import smoothscroll from 'smoothscroll-polyfill';
-import React, { ReactEventHandler, ReactSVG, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 interface IScroll {
-  type?: string;
-  element?: string;
-  offset?: number;
-  timeout?: number;
-  onClick?: any;
-  children?: React.ReactElement;
+    type?: string;
+    element?: string;
+    offset?: number;
+    timeout?: number;
+    onClick?: any;
+    children?: React.ReactElement;
 }
 
 const Scroll: React.FC<IScroll> = (props: IScroll) => {
-  const { children } = props;
+    const { children } = props;
 
-  useEffect(() => {
-    smoothscroll.polyfill();
-  }, []);
+    useEffect(() => {
+        smoothscroll.polyfill();
+    }, []);
 
-  const scrollTo = (
-    element: Element,
-    offSet = 0,
-    timeout: number | null = null
-  ) => {
-    const elemPos = element
-      ? element.getBoundingClientRect().top + window.pageYOffset
-      : 0;
+    const scrollTo = (
+        element: Element,
+        offSet = 0,
+        timeout: number | null = null
+    ) => {
+        const elemPos = element
+            ? element.getBoundingClientRect().top + window.pageYOffset
+            : 0;
 
-    if (timeout) {
-      setTimeout(() => {
-        window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
-      }, timeout);
-    } else {
-      window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
-    }
-  };
+        if (timeout) {
+            setTimeout(() => {
+                window.scroll({
+                    top: elemPos + offSet,
+                    left: 0,
+                    behavior: 'smooth',
+                });
+            }, timeout);
+        } else {
+            window.scroll({
+                top: elemPos + offSet,
+                left: 0,
+                behavior: 'smooth',
+            });
+        }
+    };
 
-  const handleClick = (e: React.MouseEvent) => {
-    const { type, element, offset, timeout } = props;
-    e.preventDefault();
+    const handleClick = (e: React.MouseEvent) => {
+        const { type, element, offset, timeout } = props;
+        e.preventDefault();
 
-    let elem: Element | null = null;
-    let scroll = true;
+        let elem: Element | null = null;
+        let scroll = true;
 
-    if (type && element) {
-      switch (type) {
-        case 'class':
-          elem = document.getElementsByClassName(element)[0];
-          scroll = elem ? true : false;
-          break;
-        case 'id':
-          elem = document.getElementById(element);
-          scroll = elem ? true : false;
-          break;
-        default:
-      }
-    }
-    scroll
-      ? scrollTo(elem!, offset, timeout)
-      : console.log(`Element not found: ${element}`);
-  };
+        if (type && element) {
+            switch (type) {
+                case 'class':
+                    elem = document.getElementsByClassName(element)[0];
+                    scroll = elem ? true : false;
+                    break;
+                case 'id':
+                    elem = document.getElementById(element);
+                    scroll = elem ? true : false;
+                    break;
+                default:
+            }
+        }
+        scroll
+            ? scrollTo(elem!, offset, timeout)
+            : console.log(`Element not found: ${element}`);
+    };
 
-  return (
-    <>
-      {typeof children === 'object' ? (
-        React.cloneElement(children, {
-          onClick: (e: React.MouseEvent) => {
-            handleClick(e);
-          },
-        })
-      ) : (
-        <span
-          onClick={(e: React.MouseEvent) => {
-            handleClick(e);
-          }}
-        >
-          {children}
-        </span>
-      )}
-    </>
-  );
+    return (
+        <>
+            {typeof children === 'object' ? (
+                React.cloneElement(children, {
+                    onClick: (e: React.MouseEvent) => {
+                        handleClick(e);
+                    },
+                })
+            ) : (
+                <span
+                    onClick={(e: React.MouseEvent) => {
+                        handleClick(e);
+                    }}
+                >
+                    {children}
+                </span>
+            )}
+        </>
+    );
 };
 
 export default Scroll;

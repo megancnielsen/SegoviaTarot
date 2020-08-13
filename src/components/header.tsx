@@ -26,7 +26,7 @@ const Sidebar: React.FC<ISidebar> = ({ fullMenu }) => {
                     }}
                     className="menuToggle"
                 >
-                    <span>Menu</span>
+                    <span>Menuss</span>
                 </a>
             </nav>
         </header>

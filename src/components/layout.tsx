@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
 import Footer from './footer';
-import SideBar from './sidebar';
+import SideBar from './header';
 
 interface ILayoutProps {
     children: React.ReactNode;

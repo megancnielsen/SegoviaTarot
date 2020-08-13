@@ -1,54 +1,47 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-export default ({ onMenuToggle = () => {} }) => {
+interface INavbarProps {
+    className: string;
+    callback: () => void;
+}
+
+export default ({ className = '', onMenuToggle = () => {} }) => {
     return (
-        <nav id="menu">
-            <div className="inner">
-                <h2>Menu</h2>
-                <ul className="links">
-                    <li>
-                        <Link
-                            onClick={e => {
-                                onMenuToggle();
-                            }}
-                            to="/"
-                        >
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            onClick={e => {
-                                onMenuToggle();
-                            }}
-                            to="/Generic"
-                        >
-                            Generic Page
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            onClick={e => {
-                                onMenuToggle();
-                            }}
-                            to="/Elements"
-                        >
-                            Elements
-                        </Link>
-                    </li>
-                </ul>
-                <a
-                    className="close"
-                    onClick={e => {
-                        e.preventDefault();
-                        onMenuToggle();
-                    }}
-                    href="#menu"
-                >
-                    {''}
-                </a>
-            </div>
-        </nav>
+        <div className={`menu ${className}`}>
+            {/* <div className=""> */}
+            <ul className="inner links">
+                <li>
+                    <Link
+                        onClick={e => {
+                            onMenuToggle();
+                        }}
+                        to="/"
+                    >
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        onClick={e => {
+                            onMenuToggle();
+                        }}
+                        to="/generic"
+                    >
+                        Generic Page
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        onClick={e => {
+                            onMenuToggle();
+                        }}
+                        to="/elements"
+                    >
+                        Elements
+                    </Link>
+                </li>
+            </ul>
+        </div>
     );
 };

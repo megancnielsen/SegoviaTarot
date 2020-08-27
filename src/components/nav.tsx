@@ -12,12 +12,7 @@ export default () => {
                 </li>
                 <li>
                     <Link onClick={e => {}} to="/generic">
-                        Generic Page
-                    </Link>
-                </li>
-                <li>
-                    <Link onClick={e => {}} to="/elements">
-                        Elements
+                        Schedule an Appointment
                     </Link>
                 </li>
             </ul>

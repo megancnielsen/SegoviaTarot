@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './footer';
 import Header from './header';
+import ScrollToTopButton from './scrollToTop';
 
 interface ILayoutProps {
     children: React.ReactNode;
@@ -66,6 +67,7 @@ const Layout: React.FC<ILayoutProps> = (props: ILayoutProps) => {
                         <div id="page-wrapper">
                             <Header />
                             {children}
+                            <ScrollToTopButton />
                             <Footer />
                         </div>
                     </div>

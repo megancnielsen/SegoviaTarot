@@ -12,11 +12,10 @@
 
 header.header.is-at-top {
     height: 100px !important;
-    .menu {
+    #menu,
+    .links {
         height: 100px !important;
-        .links {
-            height: 90px !important;
-        }
+        margin-top: 1.7rem;
     }
 }
 

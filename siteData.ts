@@ -9,8 +9,8 @@ module.exports = {
     manifestIcon: 'src/assets/img/website-icon.png',
     pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
 
-    heading: 'Isiah Fletcher',
-    subHeading: 'Full time Web Developer. Full time Content Writer. ',
+    heading: 'Segovia Tarot',
+    subHeading: 'Based in Boise, Idaho ',
     // social
     socialLinks: [
         {

@@ -22,7 +22,7 @@ export default (props: IProps) => {
 
     return (
         <header id="header" className={`header ${isAtTop}`} ref={ref}>
-            <h1>Custom Site</h1>
+            <h1>Segovia Tarot</h1>
             <Nav />
         </header>
     );

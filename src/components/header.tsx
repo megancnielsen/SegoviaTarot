@@ -1,33 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Nav from './nav';
-import { Link } from 'gatsby';
 
-interface ISidebar extends IProps {
-    fullMenu: boolean;
-}
+export default (props: IProps) => {
+    const ref: React.MutableRefObject<HTMLHeadElement | null> = useRef(null);
+    const [isAtTop, setIsAtTop] = useState<string>('is-at-top');
 
-const Sidebar: React.FC<ISidebar> = ({ fullMenu }) => {
-    const [headerOpen, toggleHeader] = useState(false);
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (ref.current) {
+                const headerPosition = ref.current.getBoundingClientRect().top;
+                const atTop = window.scrollY;
+
+                if (headerPosition === atTop) {
+                    setIsAtTop('is-at-top');
+                } else {
+                    setIsAtTop('');
+                }
+            }
+        });
+    }, []);
+
     return (
-        <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
-            <Nav
-                className={`${headerOpen ? 'is-visible' : ''}`}
-                onMenuToggle={() => toggleHeader(!headerOpen)}
-            />
-            <nav>
-                <a
-                    href="#menu"
-                    onClick={e => {
-                        e.preventDefault();
-                        toggleHeader(!headerOpen);
-                    }}
-                    className="menuToggle"
-                >
-                    <span>Menu</span>
-                </a>
-            </nav>
+        <header id="header" className={`header ${isAtTop}`} ref={ref}>
+            <h1>Custom Site</h1>
+            <Nav />
         </header>
     );
 };
-
-export default Sidebar;

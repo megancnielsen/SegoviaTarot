@@ -1,57 +1,26 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-interface INavbarProps {
-    className: string;
-    callback: () => void;
-}
-
-export default ({ className = '', onMenuToggle = () => {} }) => {
+export default () => {
     return (
-        <div className={`menu ${className}`}>
-            {/* <div className=""> */}
-            <ul className="inner links">
+        <nav id="menu" className="menu">
+            <ul className="links">
                 <li>
-                    <Link
-                        onClick={e => {
-                            onMenuToggle();
-                        }}
-                        to="/"
-                    >
+                    <Link onClick={e => {}} to="/">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link
-                        onClick={e => {
-                            onMenuToggle();
-                        }}
-                        to="/"
-                    >
-                        Home
-                    </Link>
-                </li>
-                <li>
-                    <Link
-                        onClick={e => {
-                            onMenuToggle();
-                        }}
-                        to="/generic"
-                    >
+                    <Link onClick={e => {}} to="/generic">
                         Generic Page
                     </Link>
                 </li>
                 <li>
-                    <Link
-                        onClick={e => {
-                            onMenuToggle();
-                        }}
-                        to="/elements"
-                    >
+                    <Link onClick={e => {}} to="/elements">
                         Elements
                     </Link>
                 </li>
             </ul>
-        </div>
+        </nav>
     );
 };

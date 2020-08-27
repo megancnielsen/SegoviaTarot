@@ -26,6 +26,16 @@ export default ({ className = '', onMenuToggle = () => {} }) => {
                         onClick={e => {
                             onMenuToggle();
                         }}
+                        to="/"
+                    >
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        onClick={e => {
+                            onMenuToggle();
+                        }}
                         to="/generic"
                     >
                         Generic Page

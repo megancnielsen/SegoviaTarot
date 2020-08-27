@@ -9,8 +9,10 @@
 #header {
     @include vendor(
         'transition',
-        'background-color #{_duration(transition)} ease-in-out'
+        'height #{_duration(header-transition)} ease'
     );
+    @include vendor('display', 'grid');
+    @include vendor('grid-template-columns', '1fr 3fr');
     background-color: transparentize(
         desaturate(lighten(_palette(bg), 3), 1.5),
         0.05
@@ -32,8 +34,9 @@
                 'visibility #{_duration(transition)}'
             )
         );
+        @include vendor('align-self', 'center');
         border-bottom: 0;
-        font-size: 0.8em;
+        font-size: 1.5rem;
         margin-bottom: 0;
         opacity: 1;
         visibility: visible;
@@ -50,7 +53,7 @@
         height: 3em;
         letter-spacing: _font(kern-heading);
         line-height: 3em;
-        position: absolute;
+        // position: absolute;
         right: 0.7em;
         text-transform: uppercase;
         top: 0.7em;

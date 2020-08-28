@@ -10,7 +10,7 @@ module.exports = {
     pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
 
     heading: 'Segovia Tarot',
-    subHeading: 'Based in Boise, Idaho ',
+    subHeading: 'Based in Boise, Idaho',
     // social
     socialLinks: [
         {

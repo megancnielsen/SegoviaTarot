@@ -1,0 +1,25 @@
+ul {
+    @include vendor('transition', ('opacity 2s ease', 'transform 1s ease'));
+    li.scroll-btn:not(.top) {
+        @include icon;
+        // margin: (_size(element-margin) * 1.25) 0 0 0;
+        // padding: 0 0 0 3.25em;
+        // position: relative;
+        list-style: none;
+        border-radius: 100%;
+        display: inline-block;
+        font-size: 2em;
+        height: 2.5em;
+        left: 0;
+        line-height: 2.35em;
+        position: fixed;
+        text-align: center;
+        bottom: 20px;
+        left: 92vw;
+        width: 2.5em;
+        transition: 0.5s all ease-in;
+        &.scroll-btn:hover {
+            cursor: pointer;
+        }
+    }
+}

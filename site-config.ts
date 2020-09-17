@@ -1,5 +1,6 @@
 module.exports = {
     siteTitle: 'Gatsby Starter SolidState', // <title>
+
     manifestName: 'SolidState',
     manifestShortName: 'Landing', // max 12 characters
     manifestStartUrl: '/',
@@ -10,7 +11,7 @@ module.exports = {
     pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
 
     heading: 'Segovia Tarot',
-    subHeading: 'Based in Boise, Idaho ',
+    subHeading: 'Based in Boise, Idaho',
     // social
     socialLinks: [
         {
@@ -31,9 +32,18 @@ module.exports = {
         {
             icon: 'fa-envelope-o',
             name: 'Email',
-            url: 'mailto:anubhav.srivastava00@gmail.com',
+            url: 'isiahfletcher7@gmail.com',
         },
     ],
     phone: '000-00000',
     address: '305 Del Sol, Sunnyvale, CA',
+
+    // calendar meta data
+    calendar: {
+        title: 'Gatsby Starter Event Calendar',
+        subTitle: 'The easiest option to share events!',
+        formLink: 'https://forms.gle/5Kv3XKJBA5g5FWRC7',
+        limitMonthInTheFuture: 6,
+        theme: require('./src/components/calendar/utils/themes/dark.json'),
+    },
 };

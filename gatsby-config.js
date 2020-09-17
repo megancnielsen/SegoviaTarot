@@ -1,4 +1,4 @@
-const config = require('./siteData.ts');
+const config = require('./site-config.ts');
 
 module.exports = {
     pathPrefix: config.pathPrefix,
@@ -10,9 +10,10 @@ module.exports = {
         'gatsby-plugin-offline',
         // `gatsby-transformer-sharp`, // TODO: look into if we need this later
         // `gatsby-plugin-sharp`,
-        // `gatsby-plugin-sitemap`,
+        `gatsby-plugin-sitemap`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-typescript`,
+        'gatsby-plugin-styled-components',
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -32,20 +33,20 @@ module.exports = {
                 path: `${__dirname}/src/assets/`,
             },
         },
-        {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
-            options: {
-                fonts: [
-                    {
-                        family: `Cormorant Garamond`,
-                        variants: [`400`, `500`, `700`],
-                    },
-                    {
-                        family: `Montserrat`,
-                        variants: [`400`, `500`, `700`],
-                    },
-                ],
-            },
-        },
+        // {
+        //     resolve: `gatsby-plugin-prefetch-google-fonts`,
+        //     options: {
+        //         fonts: [
+        //             {
+        //                 family: `Cormorant Garamond`,
+        //                 variants: [`400`, `500`, `700`],
+        //             },
+        //             {
+        //                 family: `Montserrat`,
+        //                 variants: [`400`, `500`, `700`],
+        //             },
+        //         ],
+        //     },
+        // },
     ],
 };

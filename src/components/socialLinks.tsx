@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../../siteData';
+import config from '../../site-config';
 
 const SocialLinks = () => {
     const { socialLinks } = config;

@@ -10,7 +10,8 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 
-import config from '../../siteData';
+import config from '../../site-config';
+
 const IndexPage = () => (
     <Layout fullMenu={false}>
         <section id="banner">

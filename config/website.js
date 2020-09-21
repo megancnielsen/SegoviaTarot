@@ -13,27 +13,27 @@ module.exports = {
     subHeading: 'Based in Boise, Idaho ',
     // social
     socialLinks: [
-        {
-            icon: 'fa-github',
-            name: 'Github',
-            url: 'https://github.com/anubhavsrivastava',
-        },
-        {
-            icon: 'fa-twitter',
-            name: 'Twitter',
-            url: 'https://twitter.com/onlyanubhav',
-        },
+        // {
+        //     icon: 'fa-github',
+        //     name: 'Github',
+        //     url: 'https://github.com/anubhavsrivastava',
+        // },
+        // {
+        //     icon: 'fa-twitter',
+        //     name: 'Twitter',
+        //     url: 'https://twitter.com/onlyanubhav',
+        // },
         {
             icon: 'fa-facebook',
             name: 'Facebook',
-            url: 'https://facebook.com/theanubhav',
+            url: 'https://www.facebook.com/fletchmydrumsticks/',
         },
         {
-            icon: 'fa-envelope-o',
-            name: 'Email',
-            url: 'mailto:anubhav.srivastava00@gmail.com',
+            icon: 'fa-instagram',
+            name: 'Instagram',
+            url: 'https://www.instagram.com/fletchmydrumsticks/?hl=en',
         },
     ],
-    phone: '000-00000',
-    address: '305 Del Sol, Sunnyvale, CA',
+    phone: '208-891-6705',
+    address: 'Boise, Idaho',
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import config from '../../siteData';
+import config from '../../config/website';
 import SocialLinks from './socialLinks';
 
 const ContactForm = () => {

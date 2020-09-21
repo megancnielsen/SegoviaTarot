@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'gatsby';
-import config from '../../siteData';
+import config from '../../config/website';
 
 interface INavbarProps {
     items?: NavLink[];

@@ -1,4 +1,4 @@
-const config = require('./siteData.ts');
+const config = require('./config/siteData');
 
 module.exports = {
     pathPrefix: config.pathPrefix,

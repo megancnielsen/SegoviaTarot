@@ -1,4 +1,4 @@
-const config = require('./config/siteData');
+const config = require('./config/website');
 
 module.exports = {
     pathPrefix: config.pathPrefix,

@@ -61,7 +61,7 @@ const Layout: React.FC<ILayoutProps> = (props: ILayoutProps) => {
                     }
                 }
             `}
-            render={data => (
+            render={(data: { site: { siteMetadata: { title: any; }; }; }) => (
                 <>
                     <Helmet
                         title={data.site.siteMetadata.title}
@@ -77,8 +77,8 @@ const Layout: React.FC<ILayoutProps> = (props: ILayoutProps) => {
                             isPreloaded
                                 ? ' main-body  is-preload'
                                 : ' main-body'
-                        }
-                    >
+                        }>
+                    
                         <div id="page-wrapper" ref={ref}>
                             <Header />
                             {children}

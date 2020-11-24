@@ -26,7 +26,7 @@ module.exports = {
         {
             icon: 'fa-facebook',
             name: 'Facebook',
-            url: 'https://www.facebook.com/boisesalonsegovia',
+            url: 'https://www.facebook.com/juanitasegoviatarot',
         },
         {
             icon: 'fa-instagram',

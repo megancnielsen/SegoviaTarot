@@ -6,11 +6,11 @@ const SocialLinks = () => {
 
     return (
         <React.Fragment>
-            {socialLinks.map((social: { icon: any; url: any; }) => {
-                const { icon, url } = social;
+            {socialLinks.map((social: { icon: any; url: any; urlName: any; }) => {
+                const { icon, url, urlName } = social;
                 return (
                     <li className={`${icon}`} key={url}>
-                        <a href={url} target="_blank">{url}</a>
+                        <a href={url} target="_blank">{urlName}</a>
                     </li>
                 );
             })}

@@ -7,11 +7,7 @@ const Footer = () => {
             <div className="inner">
                 <h2 className="major">Get in touch</h2>
                 <p>
-                    Cras mattis ante fermentum, malesuada neque vitae, eleifend
-                    erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl
-                    eget mattis egestas, purus ipsum consequat orci, sit amet
-                    lobortis lorem lacus in tellus. Sed ac elementum arcu.
-                    Quisque placerat auctor laoreet.
+                    Questions? Send me a message!
                 </p>
                 <ContactForm />
                 <ul className="copyright">

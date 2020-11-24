@@ -72,9 +72,6 @@ const IndexPage = () => (
             </section>
             <section id="four" className="wrapper alt spotlight style4">
                 <div className="inner">
-                    {/* <a href="/#" className="image">
-                        <img src={trees} alt="" />
-                    </a> */}
                     <div className="content">
                         <h2 className="major">Rescheduling & Cancellation Policy</h2>
                         <p>

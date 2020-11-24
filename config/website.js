@@ -33,6 +33,11 @@ module.exports = {
             name: 'Instagram',
             url: 'https://www.instagram.com/segoviatarot/',
         },
+        {
+            icon: 'fa-etsy',
+            name: 'Etsy Store',
+            url: 'https://www.etsy.com/shop/SalonSegoviaEmporium?ref=shop_sugg',
+        },
     ],
     phone: '208-371-9653',
     address: 'Boise, Idaho',

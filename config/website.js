@@ -26,14 +26,14 @@ module.exports = {
         {
             icon: 'fa-facebook',
             name: 'Facebook',
-            url: 'https://www.facebook.com/fletchmydrumsticks/',
+            url: 'https://www.facebook.com/boisesalonsegovia',
         },
         {
             icon: 'fa-instagram',
             name: 'Instagram',
-            url: 'https://www.instagram.com/fletchmydrumsticks/?hl=en',
+            url: 'https://www.instagram.com/segoviatarot/',
         },
     ],
-    phone: '208-891-6705',
+    phone: '208-371-9653',
     address: 'Boise, Idaho',
 };

@@ -7,7 +7,7 @@ const ContactForm = () => {
 
     return (
         <React.Fragment>
-            <form method="post" action="/#">
+            <form method="post" action="mailto:segoviatarot@gmail.com">
                 <div className="fields">
                     <div className="field">
                         <label htmlFor="name">Name</label>

@@ -13,21 +13,21 @@ type NavLink = {
 };
 
 const links: NavLink[] = [
-    {
-        url: '/',
-        name: 'Home',
-    },
+    // {
+    //     url: '/',
+    //     name: 'Home',
+    // },
 ];
-const scrollLnks: NavLink[] = [
-    {
-        url: '/',
-        name: 'Testing',
-    },
-    {
-        url: '/',
-        name: 'This might be cool',
-    },
-];
+// const scrollLinks: NavLink[] = [
+    // {
+    //     url: '/',
+    //     name: 'Testing',
+    // },
+    // {
+    //     url: '/',
+    //     name: 'This might be cool',
+    // },
+// ];
 
 const Navbar = ({ items, header }: INavbarProps) => {
     return (
@@ -41,7 +41,7 @@ const Navbar = ({ items, header }: INavbarProps) => {
                             </li>
                         );
                     })}
-                {header && header}
+                {/* {header && header} */}
             </ul>
         </nav>
     );
@@ -79,9 +79,9 @@ export default (props: IProps) => {
         });
     }, []);
 
-    const siteHeader = () => {
-        return <h1>Segovia Tarot</h1>;
-    };
+    // const siteHeader = () => {
+    //     return <h1>Segovia Tarot</h1>;
+    // };
 
     return (
         <header

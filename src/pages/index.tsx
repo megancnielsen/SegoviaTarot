@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 // import Image from 'gatsby-image'
-import aWoodenWindow from '../assets/images/a-wooden-window.jpg';
+import TarotPic from '../assets/images/TarotPic.jpg';
 import lakeside from '../assets/images/lakeside.jpg';
 import trees from '../assets/images/through-the-trees.jpg';
 
@@ -22,7 +22,7 @@ const IndexPage = () => (
             <section id="one" className="wrapper spotlight style1">
                 <div className="inner">
                     <a href="/#" className="image">
-                        <img src={aWoodenWindow} alt="" />
+                        <img src={TarotPic} alt="" />
                     </a>
                     <div className="content">
                         <h2 className="major">About Juanita</h2>

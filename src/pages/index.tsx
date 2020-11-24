@@ -62,11 +62,8 @@ const IndexPage = () => (
                         <h2 className="major">Schedule a reading</h2>
                         <p>
                             Tarot readings can be scheduled for 15, 30, and 60 minute sessions at:
-
                         </p>
-                        {/* <a href="/#" className="special">
-                            Learn more
-                        </a> */}
+                        <a target="_top" href="https://square.site/book/LWHDZ5CQ0352D/salon-segovia-boise-id">Book an Appointment</a>
                     </div>
                 </div>
             </section>

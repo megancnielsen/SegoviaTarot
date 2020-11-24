@@ -6,7 +6,7 @@ const SocialLinks = () => {
 
     return (
         <React.Fragment>
-            {socialLinks.map(social => {
+            {socialLinks.map((social: { icon: any; url: any; }) => {
                 const { icon, url } = social;
                 return (
                     <li className={`${icon}`} key={url}>

@@ -34,7 +34,6 @@ const IndexPage = () => (
                         tincidunt. Aliquam eleifend ligula non velit accumsan
                         cursus. Etiam ut gravida sapien.
                     </p>
-
                     <p>
                         Vestibulum ultrices risus velit, sit amet blandit massa
                         auctor sit amet. Sed eu lectus sem. Phasellus in odio at
@@ -49,11 +48,7 @@ const IndexPage = () => (
 
                     <h3 className="major">Vitae phasellus</h3>
                     <p>
-                        Cras mattis ante fermentum, malesuada neque vitae,
-                        eleifend erat. Phasellus non pulvinar erat. Fusce
-                        tincidunt, nisl eget mattis egestas, purus ipsum
-                        consequat orci, sit amet lobortis lorem lacus in tellus.
-                        Sed ac elementum arcu. Quisque placerat auctor laoreet.
+                        Questions? Get in touch.
                     </p>
 
                     <section className="features">

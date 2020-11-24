@@ -25,7 +25,7 @@ const IndexPage = () => (
                         <img src={aWoodenWindow} alt="" />
                     </a>
                     <div className="content">
-                        <h2 className="major">Magna arcu feugiat</h2>
+                        <h2 className="major">About Juanita</h2>
                         <p>
                             Juanita Segovia is an intuitive diviner and tarot
                             reader who does personal readings by live zoom
@@ -34,9 +34,9 @@ const IndexPage = () => (
                             provide you with clarity in making advantageous
                             decisions in your future.
                         </p>
-                        <a href="/#" className="special">
+                        {/* <a href="/#" className="special">
                             Learn more
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </section>
@@ -45,14 +45,12 @@ const IndexPage = () => (
                     <a href="/#" className="image">
                         <img src={trees} alt="" />
                     </a>
-                    <h2 className="major">Vitae phasellus</h2>
-                    <p>
-                        Cras mattis ante fermentum, malesuada neque vitae,
-                        eleifend erat. Phasellus non pulvinar erat. Fusce
-                        tincidunt, nisl eget mattis egestas, purus ipsum
-                        consequat orci, sit amet lobortis lorem lacus in tellus.
-                        Sed ac elementum arcu. Quisque placerat auctor laoreet.
-                    </p>
+                    <div className="content">
+                        <h2 className="major">About Tarot</h2>
+                        <p>
+                            The tarot were originally a deck of 78 playing cards dating back to the 14th century that evolved into a divination tool appearing in the late 18th century.  The images in the tarot contain rich complex allegories that relate to conditions, archetypes and aspects of human life.  By pairing intuition with the images of the tarot, the user can gain subconscious information that may provide favorable outcomes in life.
+                        </p>
+                    </div>
                 </div>
             </section>
             <section id="three" className="wrapper spotlight style3">
@@ -61,18 +59,28 @@ const IndexPage = () => (
                         <img src={lakeside} alt="" />
                     </a>
                     <div className="content">
-                        <h2 className="major">Tempus adipiscing</h2>
+                        <h2 className="major">Schedule a reading</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, etiam lorem adipiscing
-                            elit. Cras turpis ante, nullam sit amet turpis non,
-                            sollicitudin posuere urna. Mauris id tellus arcu.
-                            Nunc vehicula id nulla dignissim dapibus. Nullam
-                            ultrices, neque et faucibus viverra, ex nulla
-                            cursus.
+                            Tarot readings can be scheduled for 15, 30, and 60 minute sessions at:
+
                         </p>
-                        <a href="/#" className="special">
+                        {/* <a href="/#" className="special">
                             Learn more
-                        </a>
+                        </a> */}
+                    </div>
+                </div>
+            </section>
+            <section id="four" className="wrapper alt spotlight style4">
+                <div className="inner">
+                    {/* <a href="/#" className="image">
+                        <img src={trees} alt="" />
+                    </a> */}
+                    <div className="content">
+                        <h2 className="major">Rescheduling & Cancellation Policy</h2>
+                        <p>
+                            Rescheduling your appointment can be done through the scheduling app through which you received your appointment confirmation or by contacting Segovia Tarot directly at 208-371-9653.
+                            You will receive a full refund if you cancel your appointment within 24 hours of your appointment.
+                        </p>
                     </div>
                 </div>
             </section>

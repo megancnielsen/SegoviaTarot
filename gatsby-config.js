@@ -32,20 +32,20 @@ module.exports = {
                 path: `${__dirname}/src/assets/`,
             },
         },
-        {
-            resolve: `gatsby-plugin-prefetch-google-fonts`,
-            options: {
-                fonts: [
-                    {
-                        family: `Cormorant Garamond`,
-                        variants: [`400`, `500`, `700`],
-                    },
-                    {
-                        family: `Montserrat`,
-                        variants: [`400`, `500`, `700`],
-                    },
-                ],
-            },
-        },
+        // {
+        //     resolve: `gatsby-plugin-prefetch-google-fonts`,
+        //     options: {
+        //         fonts: [
+        //             {
+        //                 family: `Cormorant Garamond`,
+        //                 variants: [`400`, `500`, `700`],
+        //             },
+        //             {
+        //                 family: `Montserrat`,
+        //                 variants: [`400`, `500`, `700`],
+        //             },
+        //         ],
+        //     },
+        // },
     ],
 };

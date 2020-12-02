@@ -27,7 +27,7 @@ module.exports = {
             icon: 'fa-facebook',
             name: 'Facebook',
             url: 'https://www.facebook.com/juanitasegoviatarot',
-            urlName: 'Connect on Facebook',
+            urlName: 'Facebook',
         },
         {
             icon: 'fa-instagram',
@@ -42,6 +42,6 @@ module.exports = {
             urlName: 'Etsy Shop',
         },
     ],
-    phone: '208-371-9653',
+    phone: '(208)-371-9653',
     address: 'Boise, Idaho',
 };

@@ -15,6 +15,7 @@ const Footer = () => {
                     <li>
                         Design: <a href="http://html5up.net">HTML5 UP</a>
                     </li>
+                    <li>Artwork by Erika McGinnis at <a href="http://www.erikamcginnisart.com/new-cover-page">Under the Cobalt Sky</a></li>
                 </ul>
             </div>
         </section>

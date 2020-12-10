@@ -32,18 +32,18 @@ $size: (
 // Font.
 $font: (
     family: (
-        'Source Sans Pro',
-        Helvetica,
-        sans-serif,
+        'Cursive',
+        Fantasy,
+        Verdana,
     ),
     family-fixed: (
-        'Courier New',
-        monospace,
+        // 'Courier New',
+        // monospace,
     ),
     family-heading: (
-        Raleway,
-        Helvetica,
-        sans-serif,
+        // Raleway,
+        // Helvetica,
+        // sans-serif,
     ),
     weight: 300,
     weight-bold: 600,
@@ -54,7 +54,7 @@ $font: (
 
 // Palette.
 $palette: (
-    bg: #2e3141,
+    bg: #2e3141b3,
     fg: #ffffff,
     fg-bold: #ffffff,
     fg-light: rgba(255, 255, 255, 0.35),
@@ -62,5 +62,5 @@ $palette: (
     border-bg: rgba(255, 255, 255, 0.025),
     border2: rgba(255, 255, 255, 0.25),
     border2-bg: rgba(255, 255, 255, 0.075),
-    accent: #4c5c96,
+    accent: #464c63de,
 );

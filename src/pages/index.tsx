@@ -28,8 +28,8 @@ const IndexPage = () => (
                     <div className="content">
                         <h2 className="major">About Juanita</h2>
                         <p>
-                            Juanita Segovia is an intuitive diviner and tarot
-                            reader who does personal readings by live zoom
+                            Juanita Segovia is an intuitive tarot diviner
+                            who does personal readings by video chat, telephone, or in person
                             sessions & telephone. With Juanita’s intuitive
                             guidance you may discover information that will
                             provide you with clarity in making advantageous
@@ -49,11 +49,11 @@ const IndexPage = () => (
                     <div className="content">
                         <h2 className="major">How it works</h2>
                         <p>
-                            Let's have a wise chat.  With Tarot as our framework, we will draw out answers that are already inside of you.  We throw a spread and take a journey through the past, present, immediate future, influences, obstacles, and possible outcomes.  With my intuitive guidance, the Tarot's rich allegorical images, mirror back questions and answers to the inquirer.  
+                            Have a wise chat. With Tarot as the framework, we will draw out answers that are already inside of you. We throw a spread and take a journey through the past, present, immediate future, influences, obstacles, and possible outcomes. With intuitive guidance, the Tarot's rich allegorical images, mirror back questions and answers to the inquirer.
                         </p>
                         <h2 className="major">About Tarot</h2>
                         <p>
-                            The tarot were originally a deck of 78 playing cards dating back to the 14th century that evolved into a divination tool appearing in the late 18th century.  The images in the tarot contain rich complex allegories that relate to conditions, archetypes and aspects of human life.  By pairing intuition with the images of the tarot, the user can gain subconscious information that may provide favorable outcomes in life.
+                            The tarot were originally a deck of 78 playing cards dating back to the 14th century that evolved into a divination tool appearing in the late 18th century. The images in the tarot contain rich complex allegories that relate to conditions, archetypes and aspects of human life. By pairing intuition with the images of the tarot, the user can gain subconscious information that may provide favorable outcomes in life.
                         </p>
                     </div>
                 </div>

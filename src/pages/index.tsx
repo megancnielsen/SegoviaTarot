@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import TarotPic from '../assets/images/TarotPic.jpg';
 import lakeside from '../assets/images/lakeside.jpg';
 import trees from '../assets/images/through-the-trees.jpg';
-import scheduleTarot from '../assets/images/tarotReadings.jpg';
+import scheduleTarot from '../assets/images/tarotCards.jpg';
 
 import config from '../../config/website';
 
@@ -43,14 +43,15 @@ const IndexPage = () => (
             </section>
             <section id="two" className="wrapper alt spotlight style4">
                 <div className="inner">
-                    <a href="/#" className="image">
-                        <img src={scheduleTarot} alt="" />
-                    </a>
+                    
                     <div className="content">
                         <h2 className="major">How it works</h2>
                         <p>
                             Have a wise chat. With Tarot as the framework, we will draw out answers that are already inside of you. We throw a spread and take a journey through the past, present, immediate future, influences, obstacles, and possible outcomes. With intuitive guidance, the Tarot's rich allegorical images, mirror back questions and answers to the inquirer.
                         </p>
+                        <a href="/#" className="image">
+                            <img src={scheduleTarot} alt="" />
+                        </a>
                         <h2 className="major">About Tarot</h2>
                         <p>
                             The tarot were originally a deck of 78 playing cards dating back to the 14th century that evolved into a divination tool appearing in the late 18th century. The images in the tarot contain rich complex allegories that relate to conditions, archetypes and aspects of human life. By pairing intuition with the images of the tarot, the user can gain subconscious information that may provide favorable outcomes in life.

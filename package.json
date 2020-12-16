@@ -7,8 +7,8 @@
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
   },
   "author": {
-    "name": "Isiah Fletcher",
-    "email": "isiahfletcher7@gmail.com"
+    "name": "Isiah Fletcher/Megan Nielsen",
+    "email": "megancnielsen@gmail.com"
   },
   "private": "true",
   "dependencies": {
@@ -52,9 +52,9 @@
     "rimraf": "^3.0.2"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-solidstate"
+    "segovia",
+    "segovia-tarot",
+    "tarot"
   ],
   "license": "MIT",
   "bugs": {

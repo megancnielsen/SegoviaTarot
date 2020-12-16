@@ -7,7 +7,7 @@ module.exports = {
     manifestThemeColor: '#663399',
     manifestDisplay: 'standalone',
     manifestIcon: 'src/assets/img/website-icon.png',
-    pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+    pathPrefix: `/segoviatarot/`, // This path is subpath of your hosting https://domain/portfolio
 
     heading: 'Segovia Tarot',
     subHeading: "Are you stuck? Unable to see a vision for your future? Do you have an issue that you are wrestling with and just can't gain the clarity to resolve it? A tarot session or series of sessions with me can give you insight resulting in discovering your next best step.",

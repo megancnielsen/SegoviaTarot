@@ -70,6 +70,9 @@ const IndexPage = () => (
                             Tarot readings can be scheduled for 15, 30, and 60 minute sessions at:
                         </p>
                         <a target="_blank" href="https://squareup.com/appointments/book/1ftamdxjh5m52r/LWHDZ5CQ0352D/start">Book an Appointment</a>
+                        <p>
+                            Please scroll down past the Salon services<br></br> to find the appointments for Tarot services.
+                        </p>
                         
                     </div>
                 </div>
@@ -83,7 +86,7 @@ const IndexPage = () => (
                         <h2 className="major">Rescheduling & Cancellation Policy</h2>
                         <p>
                             Rescheduling your appointment can be done through the scheduling app through which you received your appointment confirmation or by contacting Segovia Tarot directly at 208-371-9653.
-                            You will receive a full refund if you cancel your appointment within 24 hours of your appointment.
+                            You will receive a full refund if you cancel your appointment prior to 24 hours before your appointment.
                         </p>
                     </div>
                 </div>

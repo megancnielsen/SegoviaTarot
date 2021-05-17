@@ -69,7 +69,8 @@ const IndexPage = () => (
                         <p>
                             Tarot readings can be scheduled for 15, 30, and 60 minute sessions at:
                         </p>
-                        <a target="_blank" href="https://segoviaservicebooking.timetap.com/#/">Book an Appointment</a>
+                        <a target="_blank" href="https://squareup.com/appointments/book/1ftamdxjh5m52r/LWHDZ5CQ0352D/start">Book an Appointment</a>
+                        
                     </div>
                 </div>
             </section>

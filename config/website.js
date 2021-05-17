@@ -6,7 +6,7 @@ module.exports = {
     manifestBackgroundColor: '#663399',
     manifestThemeColor: '#663399',
     manifestDisplay: 'standalone',
-    manifestIcon: 'src/assets/img/website-icon.png',
+    manifestIcon: 'src/assets/img/triquetraIcon.jpg',
     pathPrefix: `/segoviatarot/`, // This path is subpath of your hosting https://domain/portfolio
 
     heading: 'Segovia Tarot',
@@ -35,12 +35,12 @@ module.exports = {
             url: 'https://www.instagram.com/segoviatarot/',
             urlName: 'Instagram',
         },
-        {
-            icon: 'fa-etsy',
-            name: 'Etsy Store',
-            url: 'https://www.etsy.com/shop/SalonSegoviaEmporium?ref=shop_sugg',
-            urlName: 'Etsy Shop',
-        },
+        //{
+        //    icon: 'fa-etsy',
+        //    name: 'Etsy Store',
+        //    url: 'https://www.etsy.com/shop/SalonSegoviaEmporium?ref=shop_sugg',
+        //    urlName: 'Etsy Shop',
+        //},
     ],
     phone: '(208)-371-9653',
     address: 'Boise, Idaho',
